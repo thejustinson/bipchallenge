@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Archivo } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const archivo = Archivo({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-archivo",
+});
 
 export const metadata: Metadata = {
   title: "BiPChallenge Leaderboard",
@@ -15,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={`${archivo.variable}`}>
+      <body className={`${archivo.className}`}>{children}</body>
     </html>
   );
 }
