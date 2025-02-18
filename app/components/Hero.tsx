@@ -17,7 +17,7 @@ export default function Hero() {
           Build In Public
         </h1>
         <p className="text-xl text-gray-800 mb-6 max-w-2xl mx-auto">
-          Join the <span className="font-semibold text-[#068E46]">BiPChallenge</span> and showcase your Web3 skills.  
+          Join the <span className="font-semibold text-[#068E46]">SuperteamNG Edo 20-Day BiPChallenge</span> and showcase your Web3 skills.  
           Track your progress, earn points, and climb the leaderboard in real time!
         </p>
 
