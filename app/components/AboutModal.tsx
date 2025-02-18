@@ -62,7 +62,7 @@ export default function AboutModal({ isOpen, onClose }: AboutModalProps) {
                 This challenge is about consistency, growth, and community engagement.
               </p>
               <p className="mt-4 text-gray-700">
-                Whether you're building dApps, designing, creating content, or writing about Web3, this is your chance to show your work while competing for rewards!
+                Whether you&apos;re building dApps, designing, creating content, or writing about Web3, this is your chance to show your work while competing for rewards!
               </p>
             </section>
 
@@ -106,7 +106,7 @@ export default function AboutModal({ isOpen, onClose }: AboutModalProps) {
               <div className="space-y-6">
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-2">Daily Submissions</h4>
-                  <p className="text-gray-700 mb-2">Share your work each day, whether it's:</p>
+                  <p className="text-gray-700 mb-2">Share your work each day, whether it&apos;s:</p>
                   <ol className="list-decimal pl-5 space-y-1 text-gray-700">
                     <li>Code commits or feature updates</li>
                     <li>UI/UX design progress</li>
@@ -138,9 +138,9 @@ export default function AboutModal({ isOpen, onClose }: AboutModalProps) {
 
             <section>
               <p className="text-gray-700 mb-4">
-                This challenge isn't just about winning—it's about growth, visibility, and networking.
+                This challenge isn&apos;t just about winning—it&apos;s about growth, visibility, and networking.
               </p>
-              <p className="text-gray-700 mb-4">By participating, you'll:</p>
+              <p className="text-gray-700 mb-4">By participating, you&apos;ll:</p>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start gap-2">
                   <span className="text-[#068E46]">✅</span>
@@ -160,7 +160,7 @@ export default function AboutModal({ isOpen, onClose }: AboutModalProps) {
                 </li>
               </ul>
               <p className="mt-6 text-gray-700">
-                Whether you're a developer, designer, writer, or content creator, this challenge is your chance to build, share, and shine.
+                Whether you&apos;re a developer, designer, writer, or content creator, this challenge is your chance to build, share, and shine.
               </p>
             </section>
           </div>
